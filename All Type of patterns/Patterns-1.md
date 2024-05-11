@@ -3,10 +3,11 @@
 	 **DS Involved:**  Array, String, HashTable
 		 
  
- ![[Screenshot 2024-05-10 at 4.56.20 PM.png]]
+ [[pattern_1.png]](pattern_1.png)
  
 
-	**Sample Problems :**
+
+**Sample Problems :**
 
 
 1. **Maximum Sum Subarray of Size K**:

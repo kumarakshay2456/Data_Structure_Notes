@@ -6,7 +6,7 @@
 **DS Involved:** -  Matrix, Queue
 
 
-	![[Screenshot 2024-05-10 at 5.05.51 PM.png]]
+	[[Patterns_2]] (pattern_2.png)
 
 **Sample Problems:**
 
