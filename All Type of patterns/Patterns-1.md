@@ -153,4 +153,4 @@ Certainly! Here are the solutions with proper descriptions for all 35 points:
     - **Description**: Given an integer array nums, and integers left and right, return the number of contiguous non-empty subarrays such that the value of the maximum array element in that subarray is in the range [left, right]. This problem can be solved using a sliding window approach where the window expands to include more elements until the maximum falls within the range, and then contracts to count the subarrays.
     - **Solution**: [Link to solution](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/)
 
-These links should provide detailed solutions for each problem. Let me know if you need more information!
+These links should provide detailed solutions for each problem. 
