@@ -3,7 +3,7 @@
 	 **DS Involved:**  Array, String, HashTable
 		 
  
- ![pattern_1.png](Images/pattern_1.png)
+ ![pattern_1.png](./Images/pattern_1.png)
  
 
 
