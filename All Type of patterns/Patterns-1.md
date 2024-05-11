@@ -1,5 +1,6 @@
 1.  **Sliding Window :**
-	 **Usages:** This algorithmic technique is used when we need to handle the input data in a specific window size 
+	 **Usages:** This algorithmic technique is used when we need to handle the input data in a specific window size
+ 
 	 **DS Involved:**  Array, String, HashTable
 		 
  
