@@ -1,7 +1,15 @@
 1.  **Sliding Window :**
 	 **Usages:** This algorithmic technique is used when we need to handle the input data in a specific window size
- 
-	 **DS Involved:**  Array, String, HashTable
+	
+	## How to Identify Sliding Window Problems:
+
+	- These problems generally require Finding Maximum/Minimum ****Subarray****, ****Substrings**** which satisfy some specific condition.
+	- The size of the subarray or substring ‘****K’**** will be given in some of the problems.
+	- These problems can easily be solved in O(N2) time complexity using nested loops, using sliding window we can solve these in ****O(n)**** Time Complexity.
+	- ****Required Time Complexity:**** O(N) or O(Nlog(N))
+	- ****Constraints:**** N <= 106 , If N is the size of the Array/String.
+	 
+		 **DS Involved:**  Array, String, HashTable
 		 
  
 	 ![pattern_1.png](../Images/pattern_1.png)
