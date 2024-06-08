@@ -1,7 +1,7 @@
 1.  **Sliding Window :**
 	 **Usages:** This algorithmic technique is used when we need to handle the input data in a specific window size
 	
-	## How to Identify Sliding Window Problems:
+	#### How to Identify Sliding Window Problems:
 
 	- These problems generally require Finding Maximum/Minimum ****Subarray****, ****Substrings**** which satisfy some specific condition.
 	- The size of the subarray or substring ‘****K’**** will be given in some of the problems.
