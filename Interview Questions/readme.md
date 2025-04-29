@@ -22,7 +22,7 @@ This repository contains answers to common interview questions covering a wide r
 13. [Concurrency Questions](Part-4.md#26-concurrency-questions)
 
 ### Database & Storage
-14. [Cassandra Data Modelling Concepts](Part-2.md#13-cassandra-data-modelling-concepts)
+14. [Cassandra Data Modelling Concepts](Part-2.md#13-cassandra-data-modeling-concepts)
 15. [Find Nth Highest Salary - SQL Query](Part-3.md#14-find-nth-highest-salary-sql-query)
 16. [SQL vs NoSQL - Decision Criteria](Part-3.md#15-when-to-choose-sql-vs-nosql)
 
