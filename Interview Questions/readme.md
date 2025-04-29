@@ -19,31 +19,31 @@ This repository contains answers to common interview questions covering a wide r
 ### Programming Language Concepts
 11. [Comparator and Comparable Difference (Java)](Part-2.md#11-comparator-and-comparable-difference)
 12. [Implement Basic Data Structures in Go](Part-2.md#12-implement-core-data-structures-in-go)
-26. [Concurrency Questions](Part-4.md#26-concurrency-questions)
+13. [Concurrency Questions](Part-4.md#26-concurrency-questions)
 
 ### Database & Storage
-13. [Cassandra Data Modelling Concepts](Part-2.md#13-cassandra-data-modelling-concepts)
-14. [Find Nth Highest Salary - SQL Query](Part-3.md#14-find-nth-highest-salary-sql-query)
-15. [SQL vs NoSQL - Decision Criteria](Part-3.md#15-when-to-choose-sql-vs-nosql)
+14. [Cassandra Data Modelling Concepts](Part-2.md#13-cassandra-data-modelling-concepts)
+15. [Find Nth Highest Salary - SQL Query](Part-3.md#14-find-nth-highest-salary-sql-query)
+16. [SQL vs NoSQL - Decision Criteria](Part-3.md#15-when-to-choose-sql-vs-nosql)
 
 ### Distributed Systems & Messaging
-16. [Kafka vs RabbitMQ](Part-3.md#16-kafka-vs-rabbitmq)
-23. [Kafka Architecture and Consumer Groups](Part-4.md#23-kafka-architecture-and-consumer-groups-advantage)
+17. [Kafka vs RabbitMQ](Part-3.md#16-kafka-vs-rabbitmq)
+18. [Kafka Architecture and Consumer Groups](Part-4.md#23-kafka-architecture-and-consumer-groups-advantage)
 
 ### DevOps & Infrastructure
-17. [How to Containerize Your Source Code](Part-3.md#17-how-to-containerize-your-source-code)
-18. [Helm Charts and Common Commands](Part-3.md#18-why-we-need-helm-charts-and-standard-commands)
-21. [Kubernetes Architecture and Core Components](Part-3.md#21-kubernetes-architecture-and-core-components)
-22. [Standard Kubernetes Resources and Use Cases](Part-3.md#22-standard-kubernetes-resources)
-25. [Frontend-Backend Communication in Kubernetes](Part-4.md#25-communication-between-frontend-and-backend-microservices-in-k8s)
+18. [How to Containerize Your Source Code](Part-3.md#17-how-to-containerize-your-source-code)
+19. [Helm Charts and Common Commands](Part-3.md#18-why-we-need-helm-charts-and-standard-commands)
+20. [Kubernetes Architecture and Core Components](Part-3.md#21-kubernetes-architecture-and-core-components)
+21. [Standard Kubernetes Resources and Use Cases](Part-3.md#22-standard-kubernetes-resources)
+22. [Frontend-Backend Communication in Kubernetes](Part-4.md#25-communication-between-frontend-and-backend-microservices-in-k8s)
 
 ### API Design & Architecture
-19. [API Versioning Approaches](Part-3.md#19-how-api-versioning-happens)
-20. [REST vs gRPC - When to Use Which](Part-3.md#20-why-rest-or-grpc-and-when-to-use-which)
+23. [API Versioning Approaches](Part-3.md#19-how-api-versioning-happens)
+24. [REST vs gRPC - When to Use Which](Part-3.md#20-why-rest-or-grpc-and-when-to-use-which)
 
 ### Technology Selection
-24. [Java vs Go - Business-Driven Decision](Part-4.md#24-java-vs-golang-for-business-applications)
-27. [Java vs. Go vs. Python Comparison](Java-Go-Python-Comparison.md)
+25. [Java vs Go - Business-Driven Decision](Part-4.md#24-java-vs-golang-for-business-applications)
+26. [Java vs. Go vs. Python Comparison](Java-Go-Python-Comparison.md)
 
 ## How to Use This Repository
 
