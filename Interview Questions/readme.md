@@ -6,7 +6,7 @@ This repository contains answers to common interview questions covering a wide r
 
 ### Data Structures & Algorithms
 1. [Sliding Window and Two Pointer Problems](Part-1.md#1.sliding-window-and-two-pointer-problems) 
-2. [Rain Water Trapping Problem](Part-1.md#rain-water-trapping-problem)
+2. [Rain Water Trapping Problem](Part-1.md#2-rain-water-trapping-problem)
 3. [LinkedList Problems](Part-1.md#linkedlist-problems)
 4. [Tree Traversals and Medium Questions](./04_Tree_Traversals.md)
 5. [Heap Popular Questions (Kth Max/Min Element)](./05_Heap_Questions.md)
