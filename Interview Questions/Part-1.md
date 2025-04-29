@@ -382,7 +382,7 @@ result = max_consecutive_ones(nums, k)  # Output: 6
 
 Both techniques offer ways to optimize solutions from O(n²) or worse down to O(n) time complexity, making them essential tools for efficient array and string manipulation.
 
-# 2. Rain Water Trapping Problem
+# Rain Water Trapping Problem
 
 **Explanation:** This problem asks us to calculate how much rainwater can be trapped between bars of different heights. For each position, the water that can be trapped is determined by the minimum of the maximum heights to its left and right, minus the height at that position.
 
