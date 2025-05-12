@@ -38,6 +38,7 @@
 | 18  | Fibonacci Numbers          | DP sequence problems                | [Patterns-18](All%20Type%20of%20patterns/Patterns-18.md) |
 | 19  | Palindromic Subsequence    | Mirror structure problems           | [Patterns-19](All%20Type%20of%20patterns/Patterns-19.md) |
 | 20  | Longest Common Substring   | String similarity                   | [Patterns-20](All%20Type%20of%20patterns/Patterns-20.md) |
+| 21  | 2 week DP Problems         | DP Basic and Advance                | [DP-Problems](All%20Type%20of%20patterns/dp-2-week-plan-table.md) |
 
 ## 💡 How to Use
 1. **Identify** your problem type
