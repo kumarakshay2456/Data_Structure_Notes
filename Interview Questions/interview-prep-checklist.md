@@ -26,7 +26,7 @@ We needed a way to allow teams to upload and download large Excel files—often 
 - Openpyxl for reading and writing Excel files
 - Data stored in PostgreSQL or Elasticsearch depending on use case
 
-To support downloads, I added a system where report filters were stored, Elasticsearch was queried, and the results were paginated and written to an Excel file using streaming mode (write-only mode). The file was uploaded to S3, and a notification was sent to the user via email or system notification.
+To support downloads, I added a system where report filters were stored, Elasticsearch was queried, and the results were paginated and written to an Excel file using streaming mode (write-only mode). The file was uploaded to S3, and a real time notification sent to the user via Redis pub method.
 
 ### Real-Time Examples:
 
@@ -44,9 +44,9 @@ A compliance team needed filtered data (e.g., candidates from a region in last 3
 We needed to send OTPs for candidate onboarding. Initially, we used direct API calls to SMS vendors, but we faced issues with retries and throughput.
 
 I built a notification pipeline using:
-- SQS for queueing notifications
+- SQS for queueing notifications with the priority based if it is OTP then this will be in high priority and it message is promotional then sent the sms in out of the office time. 
 - RabbitMQ for retry handling
-- Worker pool in Python to consume messages and call Exotel APIs
+- Worker pool in Python to consume messages and call GupShup api
 - Redis used for rate-limiting and deduplication
 - Failure notifications were logged in Elasticsearch for visibility
 
