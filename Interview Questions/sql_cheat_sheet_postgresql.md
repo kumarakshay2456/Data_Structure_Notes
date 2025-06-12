@@ -91,6 +91,7 @@ FROM employees;
 ---
 
 ## 🔹 8. Case Statement
+# The CASE statement is like if-else or switch-case in programming languages. It lets you create conditional expressions in SELECT, WHERE, ORDER BY, and other clauses.
 
 ```sql
 SELECT name,
