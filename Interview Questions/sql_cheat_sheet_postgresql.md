@@ -65,6 +65,12 @@ SELECT name FROM users WHERE id IN (SELECT user_id FROM orders WHERE amount > 10
 
 ## 🔹 6. Common Table Expressions (CTE)
 
+```
+A CTE is a temporary result set that you can reference within a SELECT, INSERT, UPDATE, or DELETE statement.
+
+You define it using the WITH keyword.
+```
+
 ```sql
 WITH high_earners AS (
   SELECT * FROM employees WHERE salary > 100000
@@ -85,6 +91,7 @@ FROM employees;
 ---
 
 ## 🔹 8. Case Statement
+#### The CASE statement is like if-else or switch-case in programming languages. It lets you create conditional expressions in SELECT, WHERE, ORDER BY, and other clauses.
 
 ```sql
 SELECT name,
