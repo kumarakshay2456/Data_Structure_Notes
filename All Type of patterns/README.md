@@ -19,3 +19,4 @@ List of all types of patterns with examples:
 18. Fibonacci Numbers -> [Patterns-18](Patterns-18.md)
 19. Palindromic Subsequence -> [Patterns-19](Patterns-19.md)
 20. Longest Common Substring -> [Patterns-20](Patterns-20.md)
+21. Tree and Graph -> [Tree and Graph](Trees_and_Graphs_Checklist.md)
