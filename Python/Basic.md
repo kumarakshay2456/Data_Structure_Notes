@@ -1056,6 +1056,12 @@ if __name__ == "__main__":
     print(f"Multi process time: {multi_process():.2f} seconds")
 ```
 
+```result
+Single thread time: 2.35 seconds
+Multi thread time: 2.51 seconds
+Multi process time: 1.31 seconds
+```
+
 The results typically show that:
 
 - Multi-threaded version performs similar to or worse than single-threaded (due to GIL and thread switching overhead)
@@ -1122,15 +1128,15 @@ def process_download():
 
 if __name__ == "__main__":
     print(f"Sequential download time: {sequential_download():.2f} seconds")
-    print(f
+    print(f"Threaded download time: {threaded_download():.2f} seconds")
+    print(f"Process download time: {process_download():.2f} seconds")
 ```
 
 
-```python
-if __name__ == "__main__":
-    print(f"Sequential download time: {sequential_download():.2f} seconds")
-    print(f"Threaded download time: {threaded_download():.2f} seconds")
-    print(f"Process download time: {process_download():.2f} seconds")
+```result
+Sequential download time: 4.76 seconds
+Threaded download time: 1.10 seconds
+Process download time: 1.14 seconds
 ```
 
 The results typically show:
@@ -1275,6 +1281,19 @@ if __name__ == "__main__":
     print(f"Threaded execution: {threaded_io():.2f} seconds")
     print(f"Process execution: {process_io():.2f} seconds")
     print(f"Asyncio execution: {asyncio_io():.2f} seconds")
+```
+
+```result
+--- CPU-BOUND TASK COMPARISON ---
+Sequential execution: 0.99 seconds
+Threaded execution: 1.02 seconds
+Process execution: 0.61 seconds
+
+--- I/O-BOUND TASK COMPARISON ---
+Sequential execution: 5.69 seconds
+Threaded execution: 0.81 seconds
+Process execution: 1.91 seconds
+Asyncio execution: 0.63 seconds
 ```
 
 Typical results:
