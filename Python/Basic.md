@@ -605,6 +605,68 @@ Best practices for multiple inheritance:
 
 ## 6. Error Handling
 
+	•	Errors in Python are represented by exceptions.
+	•	If not handled, an exception will stop program execution.
+	•	Error handling means writing code that can detect and respond to exceptions gracefully (instead of crashing).
+    #### Example (without handling):
+    ```python
+    print(10 / 0)   # ❌ ZeroDivisionError → program crashes
+    ```
+### How to Handle Errors in Python
+
+   1. We use the try / except / else / raise / finally blocks
+1. Basic Handling
+        ```python
+        try:
+            x = 10 / 0
+        except ZeroDivisionError:
+            print("Error: Division by zero!")
+        ```
+2. Catch Multiple Exceptions
+    ```python
+     try:
+        num = int("abc")
+    except (ValueError, TypeError) as e:
+        print(f"Error occurred: {e}")
+    ```
+
+3. Use else (runs if no exception)
+   ```python
+   try:
+        result = 10 / 2
+    except ZeroDivisionError:
+        print("Division failed")
+    else:
+        print("Result is", result)
+    ```
+4. Use finally (always runs)
+   ```python
+   try:
+        f = open("file.txt")
+        data = f.read()
+    except FileNotFoundError:
+        print("File not found!")
+    finally:
+        print("Closing file (if opened)")
+        try:
+            f.close()
+        except:
+            pass
+5. Raise Custom Exceptions
+   ```python
+   def withdraw(balance, amount):
+        if amount > balance:
+            raise ValueError("Insufficient balance")
+        return balance - amount
+
+    try:
+        withdraw(100, 200)
+    except ValueError as e:
+        print("Transaction failed:", e)
+   ```
+####  Interview One-liner Summary
+“Error handling in Python is done using exceptions. We wrap risky code inside try blocks and handle errors using except. We can also use else for code that runs if no exception occurs, finally for cleanup, and raise to throw custom exceptions. This allows programs to fail gracefully instead of crashing.”
+
 ### How to Create and Raise Custom Exceptions
 
 Creating custom exceptions allows you to define application-specific error types:
