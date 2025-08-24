@@ -30,6 +30,11 @@ print(m is n)  # False (different objects)
 # Special case with None
 val = None
 print(val is None)  # True - correct way to check for None
+
+# Why Specifically -5 to 256 caches integers in the range -5 to 256? 
+•	0–256 covers most common positive integers (used in indexing, ASCII codes, etc.).
+•	-1, -2, -3, -4, -5 are included because they are often used in negative indexing (e.g., list[-1]).
+•	Going further negative (like -100) is much less common, so not worth caching.
 ```
 
 ### Mutable vs Immutable Types
