@@ -275,6 +275,10 @@ outer_function()  # Output: Value inside inner: 15, Value after inner call: 15
 
 ## 4. Iterators and Generators
 
+Iterators and Generators in Python are both used for iteration, but they differ in how they are implemented and used
+All generators are iterators, but not all iterators are generators. Iterators need explicit implementation of __iter__ and __next__, whereas generators provide a cleaner, more memory-efficient way to create iterators using yield
+Generators are often used when reading files to avoid loading the whole file into memory. For example, iterating over a file object (for line in f) or writing a generator with yield allows processing files line by line efficiently.
+
 ### Advantages of Generators
 
 Generators offer several key advantages over regular functions or collections:
